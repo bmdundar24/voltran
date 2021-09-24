@@ -1,0 +1,74 @@
+h1{
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    border: 7px solid white;
+    text-align: center;
+    border-radius: 20px;
+}
+#header{
+    background-color: red;
+    text-align: center;
+    background-attachment: fixed;
+    width: 100%;
+    position: fixed;
+}
+image{
+    background-position: center;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(150, 150, 200, 0.4);
+    line-height: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+main{
+    margin: 10px 100px;
+}
+article h2{
+    color: red;
+    text-align: left;
+}
+article p {
+    text-align: left;
+}
+.images{
+    display: flex;
+    margin-left: 675px;
+}
+.images li{
+    margin: 2px;
+}
+.join{
+    background-color: rgba(150, 150, 200, 0.4);
+}
+.join h2,p {
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+form input{
+    border: 5px solid chartreuse;
+    border-radius: 15px;
+}
+footer{
+    background-color: red;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
